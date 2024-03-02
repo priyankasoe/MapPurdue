@@ -4,16 +4,32 @@ body {
 }
 
 h1 {
-    text-shadow: 1px 3px 7px rgb(193, 116, 193);
+    text-shadow: 1px 3px 7px rgb(190, 87, 190);
     font-weight: bold;
-    text-align: center;
-    color: rgb(216, 48, 149);
+    text-align: left;
+    color: rgb(255, 255, 255);
     font-size: 50px;
+    padding: 3%;
+}
+
+.allInput {
+  padding-left: 3%;
 }
 
 input {
     padding:1%;
+    padding-left: 2%;
+    padding-right: 10%;
     border-radius:300px;
+}
+
+
+.inputTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 1%;
+  padding-top: 2%;
 }
 
 .blob {
