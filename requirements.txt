@@ -1,1 +1,6 @@
 flask
+numpy
+pandas
+requests
+tqdm
+plotly.express
