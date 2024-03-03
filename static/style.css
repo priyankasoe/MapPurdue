@@ -9,11 +9,22 @@ h1 {
     text-align: left;
     color: rgb(255, 255, 255);
     font-size: 50px;
-    padding: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
 }
 
 .allInput {
   padding-left: 3%;
+  padding-bottom: 5%;
+}
+
+.map {
+  float: right;
+  padding-right: 8%;
+  border-width: 40%;
+  border-radius: 5px;
+  border: #6d2667;
 }
 
 input {
@@ -22,7 +33,18 @@ input {
     padding-right: 10%;
     border-radius:300px;
 }
+.mapbutton {
+  font-family: 'Poppins', sans-serif;
+  background-color:rgb(255, 117, 193);
+  font-weight: bold;
+  font-size:large;
+  padding: 1%;
+  border-radius: 20px;
+}
 
+.alignbutton {
+  padding-left: 35px;
+}
 
 .inputTitle {
   font-family: 'Poppins', sans-serif;
@@ -45,8 +67,8 @@ input {
   
   .blob2 {
     position: absolute;
-    top: 500;
-    left: 1500;
+    top: 300;
+    left: 1400;
     fill: #6d2667;
     width: 50vmax;
     z-index: -1;

@@ -8,26 +8,33 @@
 </head>
 <body>
     <h1> PURDUE MAPS  </h1>
-    <div class="allInput">
-    <div class="input">
-        <label for="fname">
-            <div class="inputTitle">
-                &#128205STARTING POINT
-            </div>
-        </label>
-        <input type="text" id="fname" name="fname">
-    <button>enter</button>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8355.664858255854!2d-86.9159150487555!3d40.42760190281949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1709419384926!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div class="input">
-        <label for="fname">
-            <div class="inputTitle">
-                &#128205DESTINATION
-            </div>
-        </label>
-        <input type="text" id="fname" name="fname">
-        <button>enter</button>
-    </div>
-    </div>
+
+    <form>
+        <div class="allInput">
+        <div class="input">
+            <label for="fname">
+                <div class="inputTitle">
+                    &#128205STARTING POINT
+                </div>
+            </label>
+            <input type="text" id="fname" name="fname">
+        </div>
+        <div class="input">
+            <label for="fname">
+                <div class="inputTitle">
+                    &#128205DESTINATION
+                </div>
+            </label>
+            <input type="text" id="fname" name="fname">
+        </div>
+        </div>
+        <div class="alignbutton">
+            <button class="mapbutton">MAP IT!</button>
+        </div>
+    </form>
     <div class="blob">
         <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
@@ -42,6 +49,7 @@
             </svg>
     </div>
     </div>
+    
 </body>
 
 </html>
