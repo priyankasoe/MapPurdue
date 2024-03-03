@@ -20,6 +20,7 @@ h1 {
 }
 
 .map {
+  size-adjust: 80%;
   float: right;
   padding-right: 8%;
   border-width: 40%;

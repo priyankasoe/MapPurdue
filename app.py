@@ -78,13 +78,14 @@ def create_route_map(sourceLat, sourceLong, destLat, destLong):
 
 
    # Plotting the coordinates on map
-   color_scale = [(0, 'red'), (1,'green')]
-   fig = px.scatter_mapbox(df_out,
+   #color_scale = [(0, 'pink'), (1,'pink')]
+
+   fig = px.line_mapbox(df_out,
                            lat="lat",
                            lon="long",
-                           zoom=8,
-                           height=600,
-                           width=900)
+                           zoom=15,
+                           height=450,
+                           width=600)
 
 
 
@@ -144,7 +145,7 @@ def create_app(test_config=None):
                 j2_template = Template(template_file.read())
                 output_file.write(j2_template.render(plotly_jinja_data))
 
-        return render_template(output_html_path)
+        return render_template('map.html')
 
         #return render_template('map.html', map=map)
 
